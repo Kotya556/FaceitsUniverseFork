@@ -7,6 +7,12 @@
     "y": 32
   },
   "states": [
+    { 
+      "name": "pda-obs"
+    },
+    { 
+      "name": "pda-dsp"
+    },
     {
       "name": "id_overlay"
     },
