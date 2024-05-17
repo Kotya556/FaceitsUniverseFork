@@ -51,12 +51,22 @@
   weight: 100
 
 - type: department
+  id: Centcom
+  description: Здесь собраны представители центрального командования.
+  color: "#334E6D"
+  roles:
+  - Magistrate
+  - IAA
+  - OfficerBlueShield
+
+- type: department
   id: Engineering
   description: department-Engineering-description
   color: "#EFB341"
   roles:
   - AtmosphericTechnician
   - ChiefEngineer
+  - SeniorEngineer
   - StationEngineer
   - TechnicalAssistant
 
@@ -67,10 +77,22 @@
   roles:
   - Chemist
   - ChiefMedicalOfficer
+  - SeniorDoctor
   - MedicalDoctor
   - MedicalIntern
   - Psychologist
   - Paramedic
+
+- type: department
+  id: DeepSpacePrison
+  description: department-DeepSpacePrison-description
+  color: "#0300a6"
+  roles:
+  - HeadOfDeepSpacePrison
+  - DSPOfficer
+  - DSPDoctor
+  - DSPEngineer
+  - Prisoner
 
 - type: department
   id: Security
@@ -81,6 +103,8 @@
   - HeadOfSecurity
   - SecurityCadet
   - SecurityOfficer
+  - Brigmedic
+  - SecuritySenior
   - Pilot # Corvax-Pilot
   - Detective
   - Warden
@@ -92,16 +116,5 @@
   roles:
   - ResearchDirector
   - Scientist
+  - SeniorResearcher
   - ResearchAssistant
-
-- type: department
-  id: Specific
-  description: department-Specific-description
-  color: "#9FED58"
-  weight: 10
-  roles:
-  - Boxer
-  - Reporter
-  - Zookeeper
-  - Psychologist
-  primary: false
