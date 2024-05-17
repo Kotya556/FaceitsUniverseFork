@@ -1,0 +1,44 @@
+# Overall play time, across all roles.
+# This tracker must exist, it is used directly by PlayTimeTrackingManager
+- type: playTimeTracker
+  id: Overall
+
+# Jobs
+- type: playTimeTracker
+  id: JobMagistrate
+
+- type: playTimeTracker
+  id: JobSeniorEngineer
+
+- type: playTimeTracker
+  id: JobSeniorDoctor
+
+- type: playTimeTracker
+  id: SecuritySenior
+
+- type: playTimeTracker
+  id: JobSecurityPilot
+
+- type: playTimeTracker
+  id: JobOfficerBlueShield
+
+- type: playTimeTracker
+  id: JobBrigmedic
+
+- type: playTimeTracker
+  id: JobPrisoner
+
+- type: playTimeTracker
+  id: JobHeadOfDeepSpacePrison
+
+- type: playTimeTracker
+  id: JobDSPDoctor
+
+- type: playTimeTracker
+  id: JobDSPEngineer
+
+- type: playTimeTracker
+  id: JobDSPOfficer
+
+- type: playTimeTracker
+  id: JobSeniorResearcher
