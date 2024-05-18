@@ -2,11 +2,10 @@
   id: Cluster
   mapName: 'Cluster'
   mapPath: /Maps/cluster.yml
-  minPlayers: 10
-  maxPlayers: 35
+  minPlayers: 0
   stations:
     Cluster:
-      stationProto: StandardNanotrasenStation
+      stationProto: FaceitUniverseNanotrasenStation
       components:
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/Shuttles/emergency_transit.yml
@@ -61,4 +60,13 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
+            #custom
+            Pilot: [ 1, 1 ]
+            OfficerBlueShield: [ 1, 1 ]
+            HeadOfDeepSpacePrison: [ 1, 1 ]
+            DSPOfficer: [ 3, 3 ]
+            DSPDoctor: [ 1, 1 ]
+            DSPEngineer: [ 1, 1 ]
+            Prisoner: [ 3, 0 ]
+            Magistrate: [ 1, 1 ]
 

@@ -2,10 +2,10 @@
   id: Box
   mapName: 'Box Station'
   mapPath: /Maps/box.yml
-  minPlayers: 50
+  minPlayers: 15
   stations:
     Boxstation:
-      stationProto: StandardNanotrasenStation
+      stationProto: FaceitUniverseNanotrasenStation
       components:
         - type: StationNameSetup
           mapNameTemplate: '{0} Box Station {1}'
@@ -62,4 +62,13 @@
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
+            #custom
+            Pilot: [ 1, 1 ]
+            OfficerBlueShield: [ 1, 1 ]
+            HeadOfDeepSpacePrison: [ 1, 1 ]
+            DSPOfficer: [ 3, 3 ]
+            DSPDoctor: [ 1, 1 ]
+            DSPEngineer: [ 1, 1 ]
+            Prisoner: [ 3, 0 ]
+            Magistrate: [ 1, 1 ]
 
